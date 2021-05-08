@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+.menu{
+  width: 800px;
+	height: 50px;
+	border: 1px #AFEEEE;
+	float: right ;
+	box-Shadow: 0px 0px 5px 3px #E9E7E7;
+	background-color: #ffffff;
+  
+}
+
+.menu ul {
+  margin-top: 10px;
+  margin-left:-45px;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: 'Spartan', sans-serif;
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #000; 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+	box-shadow: 0px 0px 5px 3px #E9E7E7;
+}
+
+.logo {
+	width: 100px;
+	height: 50px;
+	border: 1px #AFEEEE ;	
+	/*box-shadow: 0px 0px 5px 3px #E9E7E7;*/
+  margin-left: 165px;
+  margin-top: -20px;
+}
+
+.titulo{
+	text-align: justify;
+	color:#4682b4;
+	font-family: 'Spartan', sans-serif;
+}
+
+h4 {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.img_product {
+  margin-left:0px; 
+}
+.title_product {
+  font-family: 'Spartan';
+  font-weight:bold;
+  font-size: 21px;
+  color:#000;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+
+.colors {
+  border-radius: 200px;
+  background-color: #9bcaf1;
+  width:30px;
+  height: 30px;
+  margin-left: 25px;
+}
+
+.title_social {
+  font-size: 23px;
+}
+
+.title_name {
+  margin-top:15px;
+  font-size: 14px;
+}
+
+.title_info {
+  font-size: 23px;
+}
+
+.p_footer {
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+}
+.title_negocio {
+	color:black;
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;	
+}
+
+.division {
+	border:1px solid #e0e0e0;
+	width: 95%;
+	margin:auto;
+}
+
+.formu {
+	font-weight: bold;
+	font-size: 24px;
+	color: #000;
+}
+
+.cart_icon {
+	font-size: 25px;
+	color:#000;	
+}
+
+.desc_buy {
+	font-size:18px;
+	margin-left:20px;
+	text-align: left;
+	text-justify: auto;
+}
+
+Paper {
+	border:1px solid red;
+}
